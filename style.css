@@ -1,0 +1,3143 @@
+/*-------------------------HOME CSS START-----------------------------*/
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Meow Script', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* .container {
+    width: 1170px;
+    margin: 0 auto;
+} */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Start header css */
+
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 25%;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fcdc01;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fcdc01;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 8px;
+}
+
+.nav-btn a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+}
+
+.nav-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* End header css */
+
+/* Start banner css */
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.home-banner h5 {
+    color: #fcdc01;
+    font-family: 'Meow Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.home-banner h1 {
+    color: #fff;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.home-banner p {
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.home-banner .banner-button {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.home-banner a {
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: #ed1c24;
+    font-size: 16px;
+    border: 2px solid #ed1c24;
+}
+
+.home-banner a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.carousel-caption {
+    bottom: 14.25rem;
+}
+
+/* End banner css */
+
+/* Start choose css */
+
+.home-choose {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.home-choose h3 {
+    color: #ed1c24;
+    font-family: 'Meow Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.home-choose h2 {
+    color: #292929;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.home-choose h2 span {
+    color: #ed1c24;
+}
+
+.home-choose p {
+    color: #292929;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.choose-logo {
+    width: 140px;
+    height: 140px;
+    background-color: #292929;
+    border-radius: 50%;
+    padding-top: 15px;
+    margin: 25px auto;
+}
+
+.home-group h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    color: #292929;
+}
+
+.home-group h5 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #292929;
+    padding-top: 15px;
+}
+
+/* End choose css */
+
+/* Start about css */
+
+.home-about {
+    background-image: url(../images/parallax01.jpg);
+    padding: 100px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.home-about h3 {
+    color: #ed1c24;
+    font-family: 'Meow Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.home-about h2 {
+    color: #fff;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.home-about h2 span {
+    color: #ed1c24;
+}
+
+.home-about p {
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+/* End about css */
+
+/* Start gallery css */
+
+.home-gallery {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #eeeae1;
+}
+
+.home-gallery h3 {
+    color: #ed1c24;
+    font-family: 'Meow Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.home-gallery h2 {
+    color: #292929;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.home-gallery h2 span {
+    color: #ed1c24;
+}
+
+/* .row-1,
+.row-2 {
+    column-gap: 30px;
+} */
+
+.row-1 {
+    margin-bottom: 30px;
+}
+
+.home-image {
+    /* width: 370px;
+    height: 246px; */
+    overflow: hidden;
+}
+
+.home-image img {
+    width: 100%;
+    transition: all 1s;
+}
+
+.home-image img:hover {
+    transform: scale(1.3);
+}
+
+/* End gallery css */
+
+/* Start user css */
+
+.home-user {
+    background-image: url(../images/user.jpg);
+    padding: 40px 0;
+}
+
+.home-user h3 {
+    color: #ed1c24;
+    font-family: 'Meow Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.home-user h2 {
+    color: #292929;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.home-user h2 span {
+    color: #ed1c24;
+}
+
+.home-user h6 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #292929;
+    text-align: center;
+    width: 75%;
+    margin: 15px auto;
+}
+
+.home-user .user-icon {
+    text-align: center;
+}
+
+.home-user .user-icon a {
+    color: #292929;
+    font-size: 30px;
+}
+
+.home-user p {
+    color: #292929;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* End user css */
+
+/* Start contact css */
+
+.home-contact {
+    background-image: url(../images/louis-hansel-wOISTbCpUCc-unsplash.jpg);
+    padding: 100px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/*.contact-wrap {
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.home-box-1 {
+    text-align: left;
+}
+
+.home-box-1 h3 {
+    color: #ed1c24;
+    font-family: 'Meow Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.home-box-1 h2 {
+    color: #fff;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.home-box-1 h2 span {
+    color: #ed1c24;
+}
+
+.home-box-1 p {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.home-box-2 h2 {
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+form {
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.txt-5 {
+    padding: 15px 0;
+}
+
+.txt-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-5 input {
+    width: 100%;
+    margin-bottom: 2px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+
+.txt select {
+    width: 100%;
+    margin-bottom: 2px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+
+.txt select::option {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
+.txt-5 input::placeholder {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.txt-4 {
+    padding-top: 50px;
+}
+
+.txt-4 a {
+    padding: 10px 30px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.txt-4 a:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+/* Start contact css */
+
+/* Start footer css */
+
+.topfoot {
+    padding: 30px 0;
+    background-color: #0e0d0a;
+}
+
+.topfoot img {
+    width: 50%;
+    padding-bottom: 18px;
+}
+
+.topfoot p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h3 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 30px;
+}
+
+.socials {
+    padding: 15px 0;
+    display: flex;
+}
+
+.socials a {
+    color: #777777;
+    font-size: 14px;
+}
+
+.socials a + a {
+    padding-left: 15px;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+.dt {
+    display: flex;
+    column-gap: 15px;
+}
+
+.days li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.times li {
+    color: #777777;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li {
+    padding: 10px 0;
+}
+
+.add li a:hover {
+    color: #fcdc01;
+}
+
+.mail input {
+    width: 66%;
+    margin: 15px 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+}
+
+.mail input::placeholder {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.checks label {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.bottomfoot {
+    padding: 15px 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.bottomfoot h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.team {
+    color: #fcdc01;
+}
+
+/* End footer css */
+
+/*-------------------------HOME CSS END-----------------------------*/
+
+/*-------------------------ABOUT CSS START-----------------------------*/
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Meow Script', cursive;
+    font-family: 'SF UI Display', sans-serif;
+}
+
+/*.container {
+    width: 1170px;
+    margin: 0 auto;
+}*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*.clear {
+    clear: both;
+}*/
+/* Start header css */
+
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 25%;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fcdc01;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fcdc01;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 8px;
+}
+
+.nav-btn a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+}
+
+.nav-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* End header css */
+
+/* Start banner css */
+.about-banner {
+    background-image: url(../images/bannerimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0;
+    position: relative;
+    text-align: center;
+}
+
+.about-banner h2 {
+    font-family: 'Meow Script', cursive;
+    color: #fcdc01;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about-banner h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 900;
+    position: relative;
+    font-family: 'SF UI Display', sans-serif;
+}
+
+/* End banner css */
+
+/* Start history css */
+.about-history {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #eeeae1;
+}
+
+.about-history h2 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+    padding: 20px 0;
+    font-family: 'SF UI Display', sans-serif;
+    text-transform: uppercase;
+}
+
+.hist {
+    color: #ed1c24;
+    font-family: 'SF UI Display', sans-serif;
+    text-transform: uppercase;
+}
+
+.about-history h3 {
+    font-family: 'Meow Script', cursive;
+    color: #ed1c24;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about-image,
+.text {
+    padding: 50px 0;
+}
+
+.about-image img {
+    transition: all 3s;
+    width: 100%;
+}
+
+.about-image img:hover {
+    transform: rotateY(180deg);
+}
+
+.about-text {
+    text-align: left;
+}
+
+.about-text img {
+    margin-left: 50px;
+
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+    font-weight: 200;
+    padding: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* End history css */
+
+/* Start chef css */
+.about-chef {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-chef h2 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+    padding: 20px 0;
+    font-family: 'SF UI Display', sans-serif;
+    text-transform: uppercase;
+}
+
+.chfs {
+    color: #ed1c24;
+    font-family: 'SF UI Display', sans-serif;
+    text-transform: uppercase;
+}
+
+.about-chef h3 {
+    font-family: 'Meow Script', cursive;
+    color: #ed1c24;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.chefimg {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 30px;
+    bottom: 91px;
+    left: 0px;
+    right: 21px;
+    opacity: 0;
+    width: 262px;
+    padding: 180px 90px;
+}
+
+.overlay:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.overlay a:hover {
+    color: #fff;
+}
+
+.id {
+    padding: 65px 0px;
+}
+
+.id li {
+    padding: 30px 0;
+    float: left;
+}
+
+.id li a {
+    color: #fcdc01;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.id li a:hover {
+    color: #fff;
+}
+
+.about-chef img {
+    width: 100%;
+}
+
+.chefimg {
+    padding: 30px 0;
+}
+
+.about-chef h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.about-chef h4:hover {
+    color: #fcdc01;
+}
+
+.about-chef h5 {
+    color: #a05411;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* End chefs css */
+
+/* Start numbers css */
+.about-nos {
+    padding: 30px 0;
+    background-color: #eeeae1;
+}
+
+.about-nos h2 {
+    font-size: 75px;
+    line-height: 76px;
+    position: relative;
+    background-clip: text;
+    -webkit-text-stroke: 2px #cbcbcb;
+    color: transparent;
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+}
+
+.about-nos h3 {
+    color: #ed1c24;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.about-nos h3:hover {
+    color: #fcdc01;
+}
+
+/* End numbers css */
+
+/* Start footer css */
+
+.topfoot {
+    padding: 30px 0;
+    background-color: #0e0d0a;
+}
+
+.topfoot img {
+    width: 50%;
+    padding-bottom: 18px;
+}
+
+.topfoot p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h3 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 30px;
+}
+
+.socials {
+    padding: 15px 0;
+    display: flex;
+}
+
+.socials a {
+    color: #777777;
+    font-size: 14px;
+}
+
+.socials a + a {
+    padding-left: 15px;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+.dt {
+    display: flex;
+    column-gap: 15px;
+}
+
+.days li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.times li {
+    color: #777777;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li {
+    padding: 10px 0;
+}
+
+.add li a:hover {
+    color: #fcdc01;
+}
+
+.mail input {
+    width: 66%;
+    margin: 15px 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+}
+
+.mail input::placeholder {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.checks label {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.bottomfoot {
+    padding: 15px 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.bottomfoot h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.team {
+    color: #fcdc01;
+}
+
+/* End footer css */
+
+/*-------------------------ABOUT CSS END-----------------------------*/
+
+/*-------------------------MENU CSS START-----------------------------*/
+
+body {
+    margin: 0;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 25%;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fcdc01;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fcdc01;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 8px;
+}
+
+.nav-btn a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+}
+
+.nav-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*banner-css*/
+.menu-banner {
+    background-image: url(../images/761368-restaurant-food-architecture-interior-design-room-people.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+}
+
+.menu-banner h6 {
+    font-size: 36px;
+    color: #fcdc01;
+    line-height: 65px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+    font-family: 'Meow Script', cursive;
+    text-align: center;
+}
+
+.menu-banner h1 {
+    font-size: 75px;
+    color: #fff;
+    line-height: 65px;
+    z-index: 1;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'SF UI Display', sans-serif;
+    position: relative;
+    font-weight: 800;
+}
+
+.menu-banner p {
+    font-size: 17px;
+    color: #fff;
+    line-height: 33px;
+    font-weight: 500;
+    padding-bottom: 54px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.menu-banner a {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    background-color: #ed1c24;
+    padding: 10px 25px;
+    text-align: center;
+    margin-left: 480px;
+}
+
+.menu-banner a:hover {
+    background-color: #fb7223;
+    border: none;
+}
+
+/*end banner*/
+
+/*start menu-testy-menu*/
+
+.menu-img img {
+    border-radius: 50%;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.menu-testy-menu {
+    background-image: url(../images/background%20img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.menu-testy {
+    background-color: #000000ba;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-right: 26px;
+}
+
+.menu-testy h2 {
+    font-size: 56px;
+    color: #fff;
+    line-height: 65px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'SF UI Display', sans-serif;
+    margin-bottom: 60px;
+}
+
+.delicious-m {
+    color: #ed1c24;
+}
+
+
+.menu-food-name {
+    color: #fff;
+    margin-top: 25px;
+}
+
+.menu-food-name h4 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #ed1c24;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.food-price1,
+.food-price2,
+.food-price3,
+.food-price4,
+.food-price5,
+.food-price6 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.food-price1 {
+    margin-left: 145px;
+}
+
+.food-price2 {
+    margin-left: 100px;
+}
+
+.food-price3 {
+    margin-left: 222px;
+}
+
+.food-price4 {
+    margin-left: 174px;
+}
+
+.food-price5 {
+    margin-left: 148px;
+}
+
+.food-price6 {
+    margin-left: 78px;
+}
+
+.menu-food-name p {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+.menu-view-button {
+    margin-top: 30px;
+    margin-left: 503px;
+}
+
+.menu-view-button a {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    background-color: #ed1c24;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.menu-view-button a:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+/*end menu-testy-menu*/
+
+/*start menu-dessert*/
+
+.menu-dessert {
+    background-image: url(../images/jordi-pujadas-MHzYnDM34IQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+}
+
+.menu-dessert-png {
+    padding: 45px 0px;
+    border: dotted 4px #f7d701;
+    position: relative;
+    z-index: 1;
+    border-radius: 63%;
+    width: 80%;
+}
+
+.menu-img-box1 {
+    text-align: center;
+}
+
+.menu-dessert-png img {
+
+    transition: all 3s;
+}
+
+.menu-dessert-png img:hover {
+    transform: rotate(360deg);
+}
+
+.menu-img-box1 h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.menu-img-box1 h2:hover {
+    color: #fb7223;
+}
+
+.menu-img-box1 h2 {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 9px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.menu-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #00000075;
+}
+
+/*end menu-dessert*/
+/***********footer**************/
+
+.topfoot {
+    padding: 30px 0;
+    background-color: #0e0d0a;
+}
+
+.topfoot img {
+    width: 50%;
+    padding-bottom: 18px;
+}
+
+.topfoot p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h3 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 30px;
+}
+
+.socials {
+    padding: 15px 0;
+    display: flex;
+}
+
+.socials a {
+    color: #777777;
+    font-size: 14px;
+}
+
+.socials a + a {
+    padding-left: 15px;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+.dt {
+    display: flex;
+    column-gap: 15px;
+}
+
+.days li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.times li {
+    color: #777777;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li {
+    padding: 10px 0;
+}
+
+.add li a:hover {
+    color: #fcdc01;
+}
+
+.mail input {
+    width: 66%;
+    margin: 15px 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+}
+
+.mail input::placeholder {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.checks label {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.bottomfoot {
+    padding: 15px 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.bottomfoot h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.team {
+    color: #fcdc01;
+}
+
+
+/*-------------------------MENU CSS END-----------------------------*/
+
+/*-------------------------GALLERY CSS START-----------------------------*/
+
+body {
+    margin: 0;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+/* Start header css */
+
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 25%;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fcdc01;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fcdc01;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 8px;
+}
+
+.nav-btn a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+}
+
+.nav-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* End header css */
+
+
+/*Start banner*/
+
+.gallery-banner {
+    background-image: url(../images/anthony-duran-QbOvrpDU1KA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+    text-align: center;
+}
+
+.gallery-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #00000075;
+}
+
+.gallery-banner h6 {
+    font-size: 36px;
+    color: #fcdc01;
+    line-height: 65px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+    font-family: 'Meow Script', cursive;
+    /* margin-left: 300px;*/
+    text-align: center;
+}
+
+.gallery-banner h1 {
+    font-size: 73px;
+    color: #fff;
+    line-height: 65px;
+    padding-bottom: 35px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    /*margin-left: 300px;*/
+    text-align: center;
+    font-family: 'SF UI Display', sans-serif;
+}
+
+.gallery-banner p {
+    font-size: 17px;
+    color: #fff;
+    line-height: 33px;
+    font-weight: 500;
+    padding-bottom: 54px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.gallery-banner a {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    background-color: #ed1c24;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.gallery-banner a:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/*End banner css*/
+
+/********gallery-food*********/
+
+.gallery-food {
+    padding: 80px 0;
+}
+
+.gallery-story h2 {
+    margin-bottom: 30px;
+    font-family: 'SF UI Display', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.gallery-story h6 {
+    font-size: 35px;
+    color: #ed1c24;
+    font-family: 'Meow Script', cursive;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.gallery-good-f {
+    color: #ed1c24;
+}
+
+.gallery-read-button {
+    margin-left: 290px;
+}
+
+.gallery-read-button a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    background-color: #ed1c24;
+    padding: 14px 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.gallery-read-button a:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.gallery-story img {
+    margin-bottom: 50px;
+}
+
+.gallery-img-box {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 50px;
+}
+
+.gallery-story h2 {
+    margin-bottom: 30px;
+}
+
+/*******popular-food********/
+
+.popular-food {
+    padding: 50px 0;
+}
+
+
+.card-body {
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 56px;
+    text-align: center;
+}
+
+.card-body h5 {
+    color: #fff;
+    margin-bottom: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #fd0d0d;
+    border-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 8px;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+/*************gallery-food**************/
+
+.gallery-quality h3 {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 9px;
+}
+
+
+
+.gallery-quality p {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.gallery-best-food h6 {
+    color: #fd0d0d;
+    font-family: 'Meow Script', cursive;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}
+
+.gallery-best-food h2 {
+    margin-bottom: 30px;
+    font-family: 'SF UI Display', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+}
+
+.gallery-img-box1 {
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    /* padding-right: 20px;*/
+}
+
+.gallery-img-box1 img {
+    width: 100%;
+    transition: all 3s;
+}
+
+.gallery-img-box1 img:hover {
+    transform: scale(1.3);
+}
+
+.gallery-button3 a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    background-color: #ed1c24;
+    padding: 14px 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.gallery-button3 a:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.gallery-button3 {
+    margin-left: 500px;
+}
+
+
+.gallery-best-food {
+    padding: 20px 0;
+}
+
+
+/* Start footer css */
+
+.topfoot {
+    padding: 30px 0;
+    background-color: #0e0d0a;
+}
+
+.topfoot img {
+    width: 50%;
+    padding-bottom: 18px;
+}
+
+.topfoot p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h3 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 30px;
+}
+
+.socials {
+    padding: 15px 0;
+    display: flex;
+}
+
+.socials a {
+    color: #777777;
+    font-size: 14px;
+}
+
+.socials a + a {
+    padding-left: 15px;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+.dt {
+    display: flex;
+    column-gap: 15px;
+}
+
+.days li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.times li {
+    color: #777777;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li {
+    padding: 10px 0;
+}
+
+.add li a:hover {
+    color: #fcdc01;
+}
+
+.mail input {
+    width: 66%;
+    margin: 15px 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+}
+
+.mail input::placeholder {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.checks label {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.bottomfoot {
+    padding: 15px 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.bottomfoot h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.team {
+    color: #fcdc01;
+}
+
+/* End footer css */
+
+
+
+/*-------------------------GALLERY CSS END-----------------------------*/
+
+/*-------------------------CONTACT CSS START-----------------------------*/
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Meow Script', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Start header css */
+
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 25%;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fcdc01;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fcdc01;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 8px;
+}
+
+.nav-btn a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+}
+
+.nav-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* End header css */
+
+/* Start banner css */
+
+.Contact-banner {
+    background-image: url(../images/Canoe-Interior-Evening-Vibes-5170.jpg);
+    padding: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Contact-banner h2 {
+    color: #fcdc01;
+    font-family: 'Meow Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.Contact-banner h1 {
+    color: #fff;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* End banner css */
+
+/* Start location css */
+
+.Contact-location {
+    padding: 60px 0;
+    background-color: #eeeae1;
+}
+
+.Contact-text h3 {
+    color: #ed1c24;
+    font-family: 'Meow Script', cursive;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.Contact-text h2 {
+    color: #292929;
+    font-family: 'SF UI Display', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.us {
+    color: #ed1c24;
+}
+
+.Contact-text h6,
+.Contact-text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #292929;
+    text-align: left;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.Contact-text h6 {
+    padding-bottom: 60px;
+}
+
+.Contact-text a {
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: #ed1c24;
+    border: 2px solid #ed1c24;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Contact-text a:hover {
+    color: #000;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.Contact-image img {
+    width: 100%;
+}
+
+/* End location css */
+
+/* Start contact css */
+
+.Contact-contact {
+    padding: 60px 0;
+}
+
+/*.contact-wrap {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 250px;
+}*/
+
+.map iframe {
+    height: 580px;
+    width: 100%;
+}
+
+form {
+    text-align: left;
+    box-sizing: border-box;
+}
+
+form h2 {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.txt {
+    padding: 15px 0;
+}
+
+.txt-wrap {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0px;
+}
+
+.txt input {
+    width: 100%;
+    margin-bottom: 2px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 2px solid #000;
+}
+
+.txt input::placeholder {
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.txt-3 {
+    padding-top: 50px;
+}
+
+.txt-3 a {
+    padding: 10px 30px;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.txt-3 a:hover {
+    color: #fff;
+    background-color: #ed1c24;
+    border: 2px solid #ed1c24;
+}
+
+.txt-1 {
+    border-bottom: 2px solid #000;
+}
+
+.txt-1 textarea {
+    width: 100%;
+    margin-bottom: 2px;
+    border: none;
+    background: none;
+    outline: none;
+    resize: none;
+}
+
+/* End contact css */
+
+/* Start footer css */
+
+.topfoot {
+    padding: 30px 0;
+    background-color: #0e0d0a;
+}
+
+.topfoot img {
+    width: 50%;
+    padding-bottom: 18px;
+}
+
+.topfoot p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h3 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.topfoot h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 30px;
+}
+
+.socials {
+    padding: 15px 0;
+    display: flex;
+}
+
+.socials a {
+    color: #777777;
+    font-size: 14px;
+}
+
+.socials a + a {
+    padding-left: 15px;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+.dt {
+    display: flex;
+    column-gap: 15px;
+}
+
+.days li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.times li {
+    color: #777777;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.add li {
+    padding: 10px 0;
+}
+
+.add li a:hover {
+    color: #fcdc01;
+}
+
+.mail input {
+    width: 66%;
+    margin: 15px 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+}
+
+.mail input::placeholder {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.checks label {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.bottomfoot {
+    padding: 15px 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.bottomfoot h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.team {
+    color: #fcdc01;
+}
+
+/* End footer css */
+
+
+/*-------------------------CONTACT CSS END-----------------------------*/
+
+/*-------------------------HOME CSS START-----------------------------*/
+
+@media only screen and (max-width: 1040px) {
+    .carousel-caption {
+        bottom: 9.25rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-expand-lg .navbar-collapse {
+        margin-left: 0;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+
+    .nav-btn {
+        padding-top: 10px;
+    }
+
+    .nav-btn a {
+        margin-left: 8px;
+    }
+
+    .carousel-caption {
+        bottom: 6.25rem;
+    }
+
+    .choose h3 {
+        font-size: 35px;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .home-banner h5 {
+        display: none;
+    }
+
+    .banner p {
+        font-size: 14px;
+    }
+
+    .banner a {
+        padding: 7px 25px;
+        font-size: 14px;
+    }
+
+    .choose h2 {
+        font-size: 45px;
+    }
+
+    .choose-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .choose-logo img {
+        width: 75%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        bottom: 0;
+    }
+
+    .foot-grp {
+        padding-bottom: 30px;
+    }
+
+    .row-1 {
+        margin-bottom: 0px;
+    }
+
+}
+
+/*-------------------------HOME CSS END-----------------------------*/
+
+/*-------------------------ABOUT CSS START-----------------------------*/
+
+/*about reponsive css*/
+@media only screen and (max-width: 1040px) {
+    .overlay {
+        position: absolute;
+        top: 30px;
+        bottom: 91px;
+        left: 0px;
+        right: 21px;
+        opacity: 0;
+        width: 262px;
+        padding: 180px 70px;
+    }
+
+    .about-nos h3 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        margin-left: 0;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+
+    .nav-btn {
+        padding-top: 10px;
+    }
+
+    .nav-btn a {
+        margin-left: 8px;
+    }
+
+    .overlay {
+        opacity: 0;
+        width: 218px;
+        padding: 85px 40px;
+    }
+
+    .about-chef h4 {
+        font-size: 15px;
+    }
+
+    .about-chef h5 {
+        font-size: 12px;
+        letter-spacing: 2.5px;
+    }
+
+    .id li a {
+        font-size: 15px;
+    }
+
+    .about-nos h3 {
+        font-size: 13px;
+    }
+
+    .about-nos h2 {
+        font-size: 70px;
+        padding: 10px;
+    }
+
+    .text p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .overlay {
+        opacity: 0;
+        width: 505px;
+        padding: 285px 120px;
+    }
+
+    .id li a {
+        font-size: 20px;
+    }
+
+    .about-chef h4 {
+        font-size: 13px;
+    }
+
+    .about-chef h5 {
+        font-size: 10px;
+        letter-spacing: 2.5px;
+    }
+
+    .about-history h2,
+    .about-chef h2 {
+        font-size: 30px;
+    }
+
+    .about-banner h1 {
+        font-size: 35px;
+    }
+
+    .about-banner h2 {
+        font-size: 25px;
+    }
+}
+
+/*-------------------------ABOUT CSS END-----------------------------*/
+
+/*-------------------------MENU CSS START-----------------------------*/
+
+/************************ menu-page responsive css*********************************/
+
+@media only screen and (max-width: 1040px) {
+    .menu-dessert .menu-img-box1 .menu-dessert-png {
+        width: 94%;
+    }
+
+    .menu-dessert .menu-img-box1 .menu-dessert-png img {
+        width: 50%;
+        height: 91%;
+    }
+
+    .menu-dessert .menu-img-box1 {
+        text-align: center;
+    }
+
+    .menu-testy-menu .menu-view-button {
+        margin-left: 405px;
+    }
+
+    .menu-testy-menu .menu-testy {
+        padding-right: 38px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name {
+        margin-top: 26px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name p {
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name h4 {
+        font-size: 19px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img img {
+        width: 110%;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price1 {
+        margin-left: 93px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price2 {
+        margin-left: 62px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price3 {
+        margin-left: 170px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price4 {
+        margin-left: 135px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price5 {
+        margin-left: 100px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price6 {
+        margin-left: 44px;
+        font-size: 16px;
+    }
+
+    .menu-dessert {
+        text-align: center;
+    }
+}
+
+/*****991*****/
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        margin-left: 0;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+
+    .nav-btn {
+        padding-top: 10px;
+    }
+
+    .nav-btn a {
+        margin-left: 8px;
+    }
+
+
+    .menu-dessert .menu-img-box1 .menu-dessert-png {
+        width: 91%;
+        padding: 72px 0;
+    }
+
+    .menu-testy-menu .menu-view-button {
+        margin-left: 295px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name h4 {
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price1 {
+        margin-left: 45px;
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price2 {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price3 {
+        margin-left: 100px;
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .vfood-name .food-price4 {
+        margin-left: 77px;
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price5 {
+        margin-left: 47px;
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price6 {
+        margin-left: 9px;
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-name p {
+        font-size: 13px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name p {
+        font-size: 13px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name {
+
+        margin-top: 0;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img img {
+        width: 115%;
+    }
+
+    .menu-testy-menu .menu-testy h2 {
+        font-size: 48px;
+        margin-bottom: 45px;
+    }
+
+    .menu-dessert {
+        text-align: center;
+    }
+}
+
+/*****767*****/
+
+@media only screen and (max-width: 767px) {
+    .navbar-light .navbar-toggler {
+        margin-left: 61px;
+        border-color: rgb(255, 255, 255);
+    }
+
+    .menu-dessert {
+        text-align: center;
+    }
+
+    .menu-banner h1 {
+        font-size: 55px;
+    }
+
+    .menu-dessert .menu-img-box1 .menu-dessert-png img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .menu-dessert .menu-img-box1 {
+        text-align: center;
+    }
+
+    .menu-testy-menu .menu-view-button {
+        margin-left: 200px;
+    }
+
+    .menu-testy-menu .menu-testy {
+        padding-right: 38px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img img {
+        margin-bottom: 60px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name {
+        margin-top: 26px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name p {
+        font-size: 15px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name h4 {
+        font-size: 20px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img img {
+        width: 110%;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price1 {
+        margin-left: 93px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price2 {
+        margin-left: 62px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price3 {
+        margin-left: 170px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price4 {
+        margin-left: 135px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price5 {
+        margin-left: 100px;
+        font-size: 16px;
+    }
+
+    .menu-testy-menu .menu-testy .menu-img .menu-food-name .food-price6 {
+        margin-left: 44px;
+        font-size: 16px;
+    }
+}
+
+/*-------------------------MENU CSS END-----------------------------*/
+
+/*-------------------------GALLERY CSS START-----------------------------*/
+
+/********************************our gallery***************************************/
+@media only screen and (max-width: 1199px) {
+   .gallery-food .gallery-parental-img .gallery-story .gallery-read-button {
+        margin-left: 240px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .gallery-food .gallery-parental-img .gallery-story .gallery-read-button {
+        margin-left: 240px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story .gallery-read-button a {
+
+        font-size: 13px;
+
+        padding: 14px 24px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story img {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-quality p {
+
+        font-size: 13px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story h2 {
+        font-size: 28px;
+    }
+
+    .gallery-best-food .gallery-img-gallery .gallery-img-box1 {
+        margin-bottom: 25px;
+    }
+
+    .gallery-best-food .gallery-button3 {
+        margin-left: 405px;
+        margin-top: 20px;
+    }
+
+    .gallery-best-food .gallery-button3 {
+        margin-left: 395px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .gallery-food .gallery-parental-img .gallery-story .gallery-read-button {
+        margin-left: 165px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story .gallery-read-button a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story h2 {
+        font-size: 20px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-quality p {
+
+        font-size: 10px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-quality h3 {
+        font-size: 16px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story img {
+        margin-bottom: 50px;
+        width: 75%;
+    }
+
+    .gallery-best-food .gallery-button3 {
+        margin-left: 285px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .gallery-best-food .gallery-img-gallery .gallery-img-box1 {
+        width: 100%;
+
+    }
+
+    .gallery-best-food .gallery-button3 {
+        margin-left: 200px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story h2 {
+        font-size: 31px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story img {
+        margin-bottom: 50px;
+        width: 80%;
+    }
+
+    .gallery-best-food h2 {
+        font-size: 50px;
+
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .gallery-banner h6 {
+        font-size: 23px;
+        padding-bottom: 0;
+    }
+
+    .gallery-banner h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .gallery-banner p {
+        font-size: 10px;
+        line-height: 20px;
+        padding-bottom: 50px;
+    }
+
+    .gallery-banner {
+        padding: 120px 0;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story h2 {
+        font-size: 20px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-quality p {
+        font-size: 14px;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-quality h3 {
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story img {
+
+        width: 95%;
+    }
+
+    .gallery-food .gallery-parental-img .gallery-story .gallery-read-button a {
+        font-size: 10px;
+        padding: 12px 20px;
+    }
+
+    .gallery-best-food .gallery-button3 {
+        margin-left: 120px;
+    }
+
+    .gallery-best-food .gallery-button3 a {
+        font-size: 8px;
+        padding: 14px 23px;
+    }
+
+    .popular-food .owl-carousel owl-theme .item .card .card-body {
+        margin-left: 55px;
+    }
+}
+
+/*-------------------------GALLERY CSS END-----------------------------*/
+
+/*-------------------------CONTACT CSS START-----------------------------*/
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        margin-left: 0;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+
+    .nav-btn {
+        padding-top: 10px;
+    }
+
+    .nav-btn a {
+        margin-left: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .Contact-text a {
+        margin-bottom: 30px;
+    }
+
+    .foot-grp {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .Contact-banner h2 {
+        font-size: 30px;
+    }
+
+    .Contact-banner h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 472px) {
+    .Contact-banner h2 {
+        display: none;
+    }
+
+    .Contact-banner h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+/*-------------------------CONTACT CSS END-----------------------------*/
